@@ -396,7 +396,7 @@ function buttoFun1() {
     a.id = "onclii";
     $(".page-header").eq(0).append("<br>");
     try {
-        document.getElementsByClassName("ibox-content")[0].appendChild(a), document.querySelector('[aria-label="breadcrumb"]').append(".")
+        document.getElementsByClassName("ibox-content")[0].appendChild(a)
     } catch {
     }
     a.addEventListener("click", function (e) {
