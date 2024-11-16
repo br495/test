@@ -383,7 +383,7 @@ function buttoFun1() {
     a.id = "onclii";
     $(".page-header").eq(0).append("<br>");
     try {
-        document.getElementsByClassName("ibox-content")[0].appendChild(a), document.getElementsByClassName("ibox-content")[0].innerHTML = document.getElementsByClassName("ibox-content")[0].innerHTML + `<br><a class="btn btn-primary btn-sm mt-2" target="_blank" href="/Errors///PageNotFound"> مُعد الدروس الإلكتروني (نسخة مخففة)</a>`
+        document.getElementsByClassName("ibox-content")[0].appendChild(a), document.getElementsByClassName("ibox-content")[0].innerHTML = document.getElementsByClassName("ibox-content")[0].innerHTML
     } catch {
     }
     a.addEventListener("click", function (e) {
