@@ -33,23 +33,9 @@ async function starttool() {
 }
 
 starttool();
-var dccv = !1, trydcc = !1, free = !1, date100 = "";
+var dccv = !0, trydcc = !1, free = !1, date100 = "";
 
 function ngo1() {
-    if (on_offasdfdggdfgdfg && hhhawwwwertt) {
-        var a = localStorage.getItem("device"), b = new Date(localStorage.getItem("try_date"));
-        b = new Date(b);
-        b.setDate(b.getDate() + 3);
-        const e = new Date;
-        if (3 > parseInt(a) && e < b && "t" !== hhhawwwwertt) localStorage.setItem("device", a - 1), trydcc = !0, date100 = b; else if ("t" == on_offasdfdggdfgdfg && "t" == hhhawwwwertt) dccv = !0; else if ("t" == on_offasdfdggdfgdfg && "f" == hhhawwwwertt) {
-            try {
-                bootbox.hideAll()
-            } catch {
-            }
-            dccv = !1
-        } else free = dccv = !0
-    }
-    buttoFun1()
 }
 
 async function pidnow() {
